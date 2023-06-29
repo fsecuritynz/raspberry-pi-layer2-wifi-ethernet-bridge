@@ -4,7 +4,7 @@ Raspberry Pi Layer2 WiFi Ethernet Bridge does just that:
 - This is a layer-2 bridge, and will place the connected ethernet computer in the same LAN
 - NO NAT, NO ROUTING
 
-[internet]-[router + wifi] ----wif---- [(wifi)raspberry-pi(ethernet)]-[pc-ethernet]
+[internet] - [router + wifi] ----wifi---- [(wifi)raspberry-pi(ethernet)] - [(ethernet)pc]
 
 # requirements
 apt update && apt install -y parprouted dhcp-helper
